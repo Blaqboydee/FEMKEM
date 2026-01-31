@@ -7,7 +7,7 @@ export default function PageHeader({ title, description }: PageHeaderProps) {
   return (
     <div className="bg-[#E6F4EA] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-4 mt-16">
           {title}
         </h1>
         {description && (

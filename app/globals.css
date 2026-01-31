@@ -3,10 +3,25 @@
 @theme {
   --color-primary: #1E7F43;
   --color-secondary: #A3D9A5;
-  --color-surface: #F9FAF9;
+  --color-surface: #fafafa;
   --color-accent: #E6F4EA;
   --color-text-primary: #1A1A1A;
-  --color-text-secondary: #555555;
+  --color-text-secondary: #737373;
+  --font-sans: 'Outfit', sans-serif;
+  --font-serif: 'DM Serif Display', serif;
+}
+
+/* Base styles */
+body {
+  background: #fafafa;
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading styles with serif font */
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -17,4 +32,40 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Add this to your global CSS file (e.g., globals.css or app.css) */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 4s ease infinite;
+}
+
+/* Custom scrollbar for the page (optional enhancement) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #10b981, #059669);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #059669, #047857);
 }

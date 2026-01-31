@@ -1,22 +1,23 @@
 import type { Metadata } from "next";
-import { Poppins, Inter } from "next/font/google";
+import { Outfit, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const dmSerif = DM_Serif_Display({
+  variable: "--font-dm-serif",
   subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
-  title: "FEMKEM Hydroponics - Professional Hydroponic Systems & Solutions",
+  title: "fekem Hydroponics - Professional Hydroponic Systems & Solutions",
   description: "Leading provider of hydroponic system installation, maintenance, and consultation services for sustainable and efficient agriculture.",
 };
 
@@ -28,7 +29,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${inter.variable} antialiased`}
+        className={`${outfit.variable} ${dmSerif.variable} antialiased font-sans`}
+        style={{ fontFamily: "'Outfit', sans-serif" }}
       >
         <Header />
         <main>{children}</main>
@@ -36,7 +38,7 @@ export default function RootLayout({
         
         {/* WhatsApp Floating Button */}
         <a
-          href="https://wa.me/234XXXXXXXXXX"
+          href="https://wa.me/+2347037738413"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50"

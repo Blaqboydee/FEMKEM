@@ -1,6 +1,6 @@
-# FEMKEM Hydroponics Website
+# fekem Hydroponics Website
 
-A modern, professional business website for FEMKEM Hydroponics built with Next.js, featuring services, projects, and contact information for hydroponic system solutions.
+A modern, professional business website for fekem Hydroponics built with Next.js, featuring services, projects, and contact information for hydroponic system solutions.
 
 ## 🚀 Tech Stack
 
@@ -13,7 +13,7 @@ A modern, professional business website for FEMKEM Hydroponics built with Next.j
 ## 📁 Project Structure
 
 ```
-femkem/
+fekem/
 ├── app/                    # Next.js App Router pages
 │   ├── about/             # About page
 │   ├── contact/           # Contact page
@@ -26,7 +26,7 @@ femkem/
 │   ├── home/              # Home page specific components
 │   │   ├── Hero.tsx
 │   │   ├── ServicesOverview.tsx
-│   │   ├── WhyFEMKEM.tsx
+│   │   ├── Whyfekem.tsx
 │   │   └── HowItWorks.tsx
 │   ├── layout/            # Layout components
 │   │   ├── Header.tsx
@@ -74,7 +74,7 @@ femkem/
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd femkem
+cd fekem
 ```
 
 2. Install dependencies:
@@ -164,9 +164,9 @@ Update the form submission handler in `app/contact/page.tsx`.
 
 ## 📄 License
 
-© 2026 FEMKEM Hydroponics. All rights reserved.
+© 2026 fekem Hydroponics. All rights reserved.
 
 ## 👨‍💻 Support
 
-For support, email info@femkem.com or visit our contact page.
+For support, email info@fekem.com or visit our contact page.
 

@@ -1,4 +1,4 @@
-# FEMKEM Hydroponics — Next.js Website Build Brief
+# fekem Hydroponics — Next.js Website Build Brief
 
 ## Authority Notice
 This document is the **single source of truth** for this project.
@@ -12,9 +12,9 @@ Do not introduce CMS, databases, auth, or backend services.
 
 ## Project Goal
 
-Build a **static, fast, professional business website** for FEMKEM using Next.js.
+Build a **static, fast, professional business website** for fekem using Next.js.
 The site should:
-- Clearly communicate FEMKEM’s services
+- Clearly communicate fekem’s services
 - Look trustworthy and modern
 - Drive contact via phone, WhatsApp, and email
 - Be low-maintenance after launch
@@ -63,7 +63,7 @@ src/
     home/
       Hero.tsx
       ServicesOverview.tsx
-      WhyFEMKEM.tsx
+      Whyfekem.tsx
       HowItWorks.tsx
     shared/
       PageHeader.tsx
@@ -87,7 +87,7 @@ Hero
 
 ServicesOverview
 
-WhyFEMKEM
+Whyfekem
 
 HowItWorks
 

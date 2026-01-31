@@ -1,6 +1,6 @@
 import Hero from "@/components/home/Hero";
 import ServicesOverview from "@/components/home/ServicesOverview";
-import WhyFEMKEM from "@/components/home/WhyFEMKEM";
+import Whyfekem from "@/components/home/WhyFEMKEM";
 import HowItWorks from "@/components/home/HowItWorks";
 import CTA from "@/components/shared/CTA";
 
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Hero />
       <ServicesOverview />
-      <WhyFEMKEM />
+      <Whyfekem />
       <HowItWorks />
       <CTA />
     </>
